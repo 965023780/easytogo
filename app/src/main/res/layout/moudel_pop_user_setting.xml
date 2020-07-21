@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/user_setNick"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_set_tv_height"
+        android:background="@drawable/shape_pop_top_item_user_setting"
+        android:padding="10dp"
+        android:text="@string/setNick"
+        android:textAlignment="center"
+        android:textColor="@color/userDataColor"
+        android:textSize="@dimen/user_text_size" />
+
+    <TextView
+        android:id="@+id/user_setAvatar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_set_tv_height"
+        android:background="@drawable/shape_pop_item_user_setting"
+        android:padding="10dp"
+        android:text="@string/setAvatar"
+        android:textAlignment="center"
+        android:textColor="@color/userDataColor"
+        android:textSize="@dimen/user_text_size" />
+
+    <TextView
+        android:id="@+id/user_setBackground"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_set_tv_height"
+        android:background="@drawable/shape_pop_item_user_setting"
+        android:padding="10dp"
+        android:text="@string/setBackground"
+        android:textAlignment="center"
+        android:textColor="@color/userDataColor"
+        android:textSize="@dimen/user_text_size" />
+
+    <TextView
+        android:id="@+id/user_setMap"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_set_tv_height"
+        android:background="@drawable/shape_pop_item_user_setting"
+        android:padding="10dp"
+        android:text="@string/setMap"
+        android:textAlignment="center"
+        android:textColor="@color/userDataColor"
+        android:textSize="@dimen/user_text_size" />
+
+    <TextView
+        android:id="@+id/user_setPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_set_tv_height"
+        android:background="@drawable/shape_pop_item_user_setting"
+        android:padding="10dp"
+        android:text="@string/setPassword"
+        android:textAlignment="center"
+        android:textColor="@color/userDataColor"
+        android:textSize="@dimen/user_text_size" />
+
+    <TextView
+        android:id="@+id/user_setBack"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/user_set_tv_height"
+        android:background="@drawable/shape_pop_bottom_item_user_setting"
+        android:padding="10dp"
+        android:text="@string/setBack"
+        android:textAlignment="center"
+        android:textColor="@color/userDataColor"
+        android:textSize="@dimen/user_text_size" />
+</LinearLayout>

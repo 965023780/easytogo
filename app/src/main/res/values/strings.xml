@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">易行地图</string>
+
+    <!--key-->
+    <string name="GaoDe_map_key">229d8817e65098e75e527f9e6ab703a8</string>
+
+    <!--login-->
+    <string name="login_hint_account">请输入您的支付宝账号</string>
+    <string name="login_hint_password">请输入您的密码</string>
+    <string name="login">登录</string>
+
+    <!-- Navigation Items -->
+    <string name="item_home">主页</string>
+    <string name="item_user">我的</string>
+    <string name="item_around">附近</string>
+
+    <!--Permission-->
+    <string name="notifyTitle">警告</string>
+    <string name="notifyMsg">应用缺少相关权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="setting">设置</string>
+    <string name="cancel">取消</string>
+
+    <!--TvContent-->
+    <string name="locationContent">重庆市南岸区崇文路2号</string>
+    <string name="locationDistance">在重庆邮电大学39号学生公寓附近</string>
+
+    <!--et_user_name-->
+    <string name="userNickInitial">未自定义昵称</string>
+    <string name="userNick">未登录</string>
+    <string name="userLogin">用户登录</string>
+    <string name="userRegister">用户注册</string>
+    <string name="offlineMap">离线地图</string>
+    <string name="userSetting">用户设置</string>
+    <string name="userPasswordHint">请输入密码</string>
+    <string name="userCheckPasswordHint">请再一次确认密码</string>
+    <string name="userNameHint">请输入用户名</string>
+    <string name="userBack">返回</string>
+    <string name="loginWord">Hi 这里小易\n欢迎回来</string>
+    <string name="registerWord">Hi 这里小易\n欢迎加入</string>
+
+    <!--user_set-->
+    <string name="setNick">自定义昵称</string>
+    <string name="setBackground">自定义背景</string>
+    <string name="setAvatar">自定义头像</string>
+    <string name="setMap">自定义地图</string>
+    <string name="setPassword">修改密码</string>
+    <string name="setBack">退出登录</string>
+
+
+    <!--Dialog-->
+    <string name="dialog_setNick">请输入你的新昵称</string>
+    <string name="dialog_checkOldPassword">请输入你的旧密码</string>
+    <string name="dialog_setPassword">请输入你的新密码</string>
+    <string name="dialog_setTwicePassword">请再次确认你的新密码</string>
+    <string name="userHasLogined">你已经登录</string>
+    <string name="usernameOrPasswordEmpty">用户名或密码为空</string>
+    <string name="usernameOrPasswordError">用户名或密码错误</string>
+    <string name="dataBaseError">数据库错误</string>
+    <string name="usernameHasExited">用户名已经存在</string>
+    <string name="twicePasswordError">两次密码输入不相同</string>
+    <string name="setSuccess">修改成功</string>
+    <string name="loginSuccess">登录成功</string>
+    <string name="registerSuccess">注册成功</string>
+    <string name="noFunction">功能未完成</string>
+    <string name="backSuccess">退出登录成功</string>
+    <string name="setNickSuccess">自定义昵称成功</string>
+    <string name="setBackgroundSuccess">自定义封面成功</string>
+    <string name="setAvatarSuccess">自定义头像成功</string>
+    <string name="setFail">数据库问题，修改失败</string>
+    <string name="setNickFail">自定义昵称失败</string>
+    <string name="setBackgroundFail">自定义封面失败</string>
+    <string name="setAvatarFail">自定义头像失败</string>
+    <string name="backFail">你尚未登录</string>
+
+    <string name="navigateDialog">导航提示栏</string>
+    <string name="search">搜索</string>
+    <string name="navigateCancel">取消导航</string>
+    <string name="navigateBegin">导航开始</string>
+</resources>

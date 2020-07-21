@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_fragments"
+    app:startDestination="@id/nav_item_home">
+
+    <fixFragment
+        android:id="@+id/nav_item_around"
+        android:name="com.example.easytogo.view.fragment.AroundFragment"
+        />
+    <fixFragment
+        android:id="@+id/nav_item_user"
+        android:name="com.example.easytogo.view.fragment.UserFragment"
+       />
+    <fixFragment
+        android:id="@+id/nav_item_home"
+        android:name="com.example.easytogo.view.fragment.HomeFragment"
+        />
+</navigation>

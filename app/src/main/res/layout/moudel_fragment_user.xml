@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="userViewModel"
+            type="com.example.easytogo.viewmodel.UserViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/user_background"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/user_background_height"
+            android:scaleType="centerCrop"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.example.easytogo.ui.CircleView
+            android:id="@+id/user_avatar"
+            android:layout_width="@dimen/user_avatar_size"
+            android:layout_height="@dimen/user_avatar_size"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/ic_user_avatar"
+            app:layout_constraintBottom_toTopOf="@+id/user_nick"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/user_nick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/user_data_margin_top"
+            android:gravity="center"
+            android:text="@{userViewModel.nick}"
+            android:textColor="@color/userDataColor"
+            android:textSize="@dimen/user_text_size"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@id/user_background" />
+
+        <Button
+            android:id="@+id/user_set"
+            android:layout_width="@dimen/user_btn_width"
+            android:layout_height="@dimen/user_btn_height"
+            android:layout_marginTop="@dimen/user_data_margin_top"
+            android:background="@drawable/selector_btn_user"
+            android:text="@string/userSetting"
+            android:textColor="@color/userDataColor"
+            android:textSize="@dimen/user_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/user_nick" />
+
+        <Button
+            android:id="@+id/user_offline_map"
+            android:layout_width="@dimen/user_btn_width"
+            android:layout_height="@dimen/user_btn_height"
+            android:layout_marginTop="@dimen/user_data_margin_top"
+            android:background="@drawable/selector_btn_user"
+            android:text="@string/offlineMap"
+            android:textColor="@color/userDataColor"
+            android:textSize="@dimen/user_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/user_set" />
+
+        <Button
+            android:id="@+id/user_prepare_login"
+            android:layout_width="@dimen/user_btn_width"
+            android:layout_height="@dimen/user_btn_height"
+            android:layout_marginTop="@dimen/user_data_margin_top"
+            android:background="@drawable/selector_btn_user"
+            android:text="@string/userLogin"
+            android:textColor="@color/userDataColor"
+            android:textSize="@dimen/user_text_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/user_offline_map" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Navigation -->
+    <dimen name="navigation_height">55dp</dimen>
+    <dimen name="navigation_margin_height">10dp</dimen>
+
+    <!--Fragment-->
+    <dimen name="fragment_margin_bottom_height">60dp</dimen>
+
+    <!--Activity_main_location_height-->
+    <dimen name="am_location_height">80dp</dimen>
+
+    <!--Activity_main_cardView_LocationText-->
+    <dimen name="home_location">60dp</dimen>
+    <dimen name="home_tv_margin_start">20dp</dimen>
+    <dimen name="home_tv_con_margin_top">20dp</dimen>
+    <dimen name="home_tv_dis_margin_top">5dp</dimen>
+    <dimen name="home_tv_include_margin_bottom">55dp</dimen>
+
+    <!--user-->
+    <dimen name="user_background_height">350dp</dimen>
+    <dimen name="user_avatar_size">120dp</dimen>
+    <dimen name="user_data_margin_top">30dp</dimen>
+    <dimen name="user_text_size">20sp</dimen>
+    <dimen name="user_btn_width">280dp</dimen>
+    <dimen name="user_btn_height">50dp</dimen>
+
+    <!--activity_login and activity_register-->
+    <dimen name="user_et_width">280dp</dimen>
+    <dimen name="user_et_pwd_margin_top">16dp</dimen>
+    <dimen name="user_et_pwd_other_margin">8dp</dimen>
+    <dimen name="user_word">35sp</dimen>
+    <dimen name="user_word_margin_start">30dp</dimen>
+    <dimen name="user_word_margin_top">60dp</dimen>
+
+    <!--user_set-->
+    <dimen name="user_set_tv_height">50dp</dimen>
+</resources>

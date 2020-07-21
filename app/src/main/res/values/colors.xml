@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <!--navigationView-->
+    <color name="navigation_background">#F8F8F8</color>
+    <color name="navigation_pressed">#2196F3</color>
+    <color name="navigation_focused">#2196F3</color>
+    <color name="navigation_checked">#2196F3</color>
+    <color name="navigation_selected">#2196F3</color>
+    <color name="navigation_default">#000000</color>
+
+    <!--Location-->
+    <color name="location_radius">#00FFFFFF</color>
+    <color name="location_background">#F8F8F8</color>
+
+    <!--userData-->
+    <color name="userDataColor">#000000</color>
+    
+    <!--popupWindow-->
+    <color name="popupWindowEdgeItemContent">#F8F8F8</color>
+    <color name="popupWindowEdgeItemBorder">#C2C0C0</color>
+    <color name="popupWindowItemContent">#F8F8F8</color>
+    <color name="popupWindowItemBorder">#C2C0C0</color>
+
+    <color name="navigateBorder">#A5A3A3</color>
+    <color name="navigateBackground">#52FFFFFF</color>
+    <color name="searchBorder">#A5A3A3</color>
+    <color name="searchBackground">#52FFFFFF</color>
+    <color name="aroundBarScrim">#F8F8F8</color>
+    <color name="locationContent">#F8F8F8</color>
+    <color name="locationBorder">#C2C0C0</color>
+</resources>

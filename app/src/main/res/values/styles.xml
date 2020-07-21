@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Activity_No_Bar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+    </style>
+
+    <style name="navigation_font">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/selector_navigation_font_color</item>
+        <item name="android:layout_marginBottom">@dimen/navigation_margin_height</item>
+    </style>
+
+    <style name="anim_window_pop_from_bottom">
+        <item name="android:windowEnterAnimation">@anim/pop_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/pop_to_top</item>
+    </style>
+
+</resources>
